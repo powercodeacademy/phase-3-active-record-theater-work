@@ -1,7 +1,15 @@
 source "https://rubygems.org"
-gem "pry"
-gem "require_all"
+
+ruby "3.3.5"
 gem "activerecord", "~> 5.2"
+gem "fiddle"
+gem "logger"
+gem "ostruct"
+gem "pry"
+gem "rake"
+gem "require_all"
 gem "sinatra-activerecord"
 gem "sqlite3"
-gem "rake"
+
+gem "rubocop"
+gem "rubocop-rake", "~> 0.7.1"
